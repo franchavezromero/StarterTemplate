@@ -3,21 +3,26 @@
         font-family: 'Ubuntu', sans-serif;
     }
     
+    .transparent {
+        background-color: transparent !important;
+    }
+    
     .topbar {
-        height: 60%;
+        height: 200px;
         background-color: transparent !important;
     }
     
     .main {
         background: black no-repeat center center fixed;
         color: white;
+        margin-bottom: 9%;
+        height: fit-content;
+        padding-top: 6%;
     }
     
     .animacion {
         text-transform: uppercase;
         position: absolute;
-        top: 20%;
-        left: 20%;
         color: white;
     }
     
@@ -25,8 +30,7 @@
         color: white;
         text-transform: uppercase;
         position: absolute;
-        top: 24%;
-        left: 20%;
+        margin-top: 3%;
     }
     
     @keyframes primer {
