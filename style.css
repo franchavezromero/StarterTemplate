@@ -1,0 +1,251 @@
+    body {
+        background-color: black;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .topbar {
+        height: 60%;
+        background-color: transparent !important;
+    }
+    
+    .main {
+        background: black no-repeat center center fixed;
+        color: white;
+    }
+    
+    .animacion {
+        text-transform: uppercase;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        color: white;
+    }
+    
+    .animacion2 {
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        top: 24%;
+        left: 20%;
+    }
+    
+    @keyframes primer {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .primer {
+        animation-name: primer;
+        animation-delay: 1s;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+    }
+    
+    @keyframes segundo {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .segundo {
+        animation-name: segundo;
+        animation-delay: 1s;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: backwards;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /*FIN ANIMACION*/
+    /*COMIENZO DROPDOWN*/
+    
+    .dropbtn {
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        padding: 15%;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        margin: 5px;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ccc!important;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+        margin-top: 65%;
+        margin-left: -158%;
+        padding-top: 10%;
+        text-align: right;
+    }
+    /*.dropdown:hover .dropbtn {
+    background-color: #b38741;
+}*/
+    /*FIN DROPDOWN*/
+    /*COMIENZO HAMBURGUESA*/
+    
+    #btn {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .bar {
+        width: 30px;
+        height: 5px;
+        background: white;
+        margin-bottom: 5px;
+    }
+    
+    .bar:last-child {
+        margin-bottom: 0px;
+    }
+    /*FIN HAMBURGUESA*/
+    /*COMIENZO FOOTER*/
+    
+    footer {
+        position: relative;
+        padding-top: 100%;
+    }
+    
+    .main-footer {
+        color: white;
+    }
+    
+    .socials {
+        text-align: center;
+    }
+    
+    .lastfooter {
+        text-align: start;
+        height: 30px !important;
+    }
+    
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-google {
+        background: #dd4b39;
+        color: white;
+    }
+    
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+    
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+    /* FINAL FOOTER */
+    /*Filas y columnas */
+    
+    .row {
+        width: 100%;
+        display: flex;
+        height: min-content;
+    }
+    
+    .col-1 {
+        width: 8.33%
+    }
+    
+    .col-2 {
+        width: 16.66%
+    }
+    
+    .col-3 {
+        width: 25%
+    }
+    
+    .col-4 {
+        width: 33.33%
+    }
+    
+    .col-5 {
+        width: 41.66%
+    }
+    
+    .col-6 {
+        width: 50%
+    }
+    
+    .col-7 {
+        width: 58.33%
+    }
+    
+    .col-8 {
+        width: 66.66%
+    }
+    
+    .col-9 {
+        width: 75%
+    }
+    
+    .col-10 {
+        width: 83.33%
+    }
+    
+    .col-11 {
+        width: 91.66%
+    }
+    
+    .col-12 {
+        width: 100%
+    }
