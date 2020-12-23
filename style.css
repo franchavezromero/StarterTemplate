@@ -24,13 +24,15 @@
         text-transform: uppercase;
         position: absolute;
         color: white;
+        left: 30%;
     }
     
     .animacion2 {
         color: white;
         text-transform: uppercase;
         position: absolute;
-        margin-top: 3%;
+        margin-top: 5%;
+        left: 30%;
     }
     
     @keyframes primer {
@@ -198,6 +200,21 @@
         color: white;
     }
     /* FINAL FOOTER */
+    /*RESPONNSIVE*/
+    
+    @media (max-width: 1000px) {
+        .animacion {
+            font-size: 100%;
+            left: 0;
+            margin-top: 5%;
+        }
+        .animacion2 {
+            font-size: 100%;
+            left: 0;
+            margin-top: 10%;
+        }
+    }
+    /*RESPONSIVE*/
     /*Filas y columnas */
     
     .row {
