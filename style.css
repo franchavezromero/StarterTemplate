@@ -24,25 +24,26 @@
     }
     
     .animacion {
-        text-transform: uppercase;
+        
         position: absolute;
         color: white;
         left: 20%;
+        font-size: 5rem;
     }
     
     .animacion2 {
         color: white;
-        text-transform: uppercase;
-        position: absolute;
-        margin-top: 5%;
-        left: 20%;
-    }
-    .animacion3 {
-        color: white;
-        text-transform: uppercase;
         position: absolute;
         margin-top: 9%;
         left: 20%;
+        font-size: 5rem;
+    }
+    .animacion3 {
+        color: white;
+        position: absolute;
+        margin-top: 16%;
+        left: 20%;
+        font-size: 5rem;
     }
     @keyframes primer {
         from {
@@ -58,9 +59,9 @@
     
     .primer {
         animation-name: primer;
-        animation-delay: 1s;
+        animation-delay: 8s;
         animation-duration: 3s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
     
@@ -78,13 +79,90 @@
     
     .segundo {
         animation-name: segundo;
-        animation-delay: 1s;
+        animation-delay: 8s;
         animation-duration:3s;
-        animation-iteration-count: infinite;
+        animation-iteration-count: 1;
         animation-fill-mode: backwards;
     }
     
+    @keyframes primer2 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .primer2 {
+        animation-name: primer2;
+        animation-delay: 14s;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
 
+    @keyframes segundo2 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .segundo2 {
+        animation-name: segundo2;
+        animation-delay: 14s;
+        animation-duration:3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: backwards;
+    }
+    @keyframes primer3 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .primer3 {
+        animation-name: primer3;
+        animation-delay: 20s;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes segundo3 {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    .segundo3 {
+        animation-name: segundo3;
+        animation-delay: 20s;
+        animation-duration:3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: backwards;
+    }
     a {
         text-decoration: none;
     }
