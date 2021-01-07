@@ -253,7 +253,9 @@
         position: relative;
         padding-top: 100%;
     }
-    
+    .footer-logo {
+        width: 50%;
+    }
     .main-footer {
         color: white;
     }
@@ -309,19 +311,19 @@
     
     @media (max-width: 1000px) {
         .animacion {
-            font-size: 100%;
+            font-size: 300%;
             left: 0;
             margin-top: 5%;
         }
         .animacion2 {
-            font-size: 100%;
-            left: 0;
-            margin-top: 10%;
-        }
-        .animacion3 {
-            font-size: 100%;
+            font-size: 300%;
             left: 0;
             margin-top: 15%;
+        }
+        .animacion3 {
+            font-size: 300%;
+            left: 0;
+            margin-top: 25%;
         }
         .logo{
             top: 0;
