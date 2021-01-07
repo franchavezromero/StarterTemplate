@@ -11,20 +11,23 @@
         height: 200px;
         background-color: transparent !important;
     }
-    
+    .logo{
+        width: 25%;
+        margin-top: 15px;
+    }
     .main {
         background: black no-repeat center center fixed;
         color: white;
         margin-bottom: 9%;
         height: fit-content;
-        padding-top: 6%;
+        padding-top: 10%;
     }
     
     .animacion {
         text-transform: uppercase;
         position: absolute;
         color: white;
-        left: 30%;
+        left: 20%;
     }
     
     .animacion2 {
@@ -32,9 +35,15 @@
         text-transform: uppercase;
         position: absolute;
         margin-top: 5%;
-        left: 30%;
+        left: 20%;
     }
-    
+    .animacion3 {
+        color: white;
+        text-transform: uppercase;
+        position: absolute;
+        margin-top: 9%;
+        left: 20%;
+    }
     @keyframes primer {
         from {
             opacity: 1;
@@ -50,7 +59,7 @@
     .primer {
         animation-name: primer;
         animation-delay: 1s;
-        animation-duration: 2s;
+        animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-fill-mode: forwards;
     }
@@ -70,11 +79,12 @@
     .segundo {
         animation-name: segundo;
         animation-delay: 1s;
-        animation-duration: 2s;
+        animation-duration:3s;
         animation-iteration-count: infinite;
         animation-fill-mode: backwards;
     }
     
+
     a {
         text-decoration: none;
     }
@@ -142,6 +152,23 @@
         margin-bottom: 0px;
     }
     /*FIN HAMBURGUESA*/
+
+    /*VIDEO*/
+    #video  {
+        position: absolute;
+        align-items: center;
+        z-index: 2 !important;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .w3-top, .w3-bar {
+        z-index: 1 !important;
+        
+    }
+
+    /*FIN VIDEO*/
+
     /*COMIENZO FOOTER*/
     
     footer {
@@ -212,6 +239,18 @@
             font-size: 100%;
             left: 0;
             margin-top: 10%;
+        }
+        .animacion3 {
+            font-size: 100%;
+            left: 0;
+            margin-top: 15%;
+        }
+        .logo{
+            top: 0;
+            left: 0;
+            text-align: start;
+            margin: 0;
+            padding: 0;
         }
     }
     /*RESPONSIVE*/
