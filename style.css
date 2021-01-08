@@ -312,6 +312,17 @@
     /*RESPONNSIVE*/
     
     @media (max-width: 1000px) {
+        body{
+            width: 100%;
+        }
+        .correu{
+            font-size: small;
+        }
+        #video{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
         .animacion {
             font-size: 300%;
             left: 0;
