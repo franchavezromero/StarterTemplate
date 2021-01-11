@@ -12,8 +12,8 @@
         background-color: transparent !important;
     }
     .logo{
-        width: 25%;
-        margin-top: 15px;
+        width: 15%;
+        margin-top: 0px;
     }
     .main {
         background: black no-repeat center center fixed;
@@ -264,6 +264,7 @@
     
     .socials {
         text-align: center;
+        display: block; 
     }
     
     .lastfooter {
@@ -349,11 +350,23 @@
             text-align: start;
             margin: 0;
             padding: 0;
+            width: 25%;
+        }
+        .footer-logo {
+            width: 125px;
         }
         .vacio {
             display: none;
         }
         .lastfooter {
+            display: flex;
+        }
+        .info{
+            text-align: center;
+            width: max-content;
+            margin-left: 15px;
+        }
+        .socials {
             display: flex;
         }
     }
