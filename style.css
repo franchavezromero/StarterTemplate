@@ -8,7 +8,7 @@
     }
     
     .topbar {
-        height: 200px;
+        height: 800px;
         background-color: transparent !important;
     }
     .logo{
@@ -19,7 +19,7 @@
         background: black no-repeat center center fixed;
         color: white;
         margin-bottom: 9%;
-        height: fit-content;
+        height: 800px;
         padding-top: 10%;
     }
     .cooreu {
@@ -30,7 +30,6 @@
         
         position: absolute;
         color: white;
-        left: 20%;
         font-size: 5rem;
     }
     @keyframes primer {
@@ -49,7 +48,7 @@
     .primer {
         animation-name: primer;
         animation-delay: 8s;
-        animation-duration: 5s;
+        animation-duration: 8s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -70,7 +69,7 @@
     .segundo {
         animation-name: segundo;
         animation-delay: 11s;
-        animation-duration:5s;
+        animation-duration:8s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -91,7 +90,7 @@
     .segundo2 {
         animation-name: segundo2;
         animation-delay: 14s;
-        animation-duration:5s;
+        animation-duration:8s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -112,7 +111,107 @@
     .segundo3 {
         animation-name: segundo3;
         animation-delay: 17s;
-        animation-duration:5s;
+        animation-duration:8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes segundo4 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+            color: white;
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .segundo4 {
+        animation-name: segundo4;
+        animation-delay: 22s;
+        animation-duration:8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes segundo5 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+            color: white;
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .segundo5 {
+        animation-name: segundo5;
+        animation-delay: 27s;
+        animation-duration:8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes segundo6 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+            color: white;
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .segundo6 {
+        animation-name: segundo6;
+        animation-delay: 32s;
+        animation-duration:8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes segundo7 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+            color: white;
+        }
+        to {
+            opacity: 0;
+            transform: translateX(300px);
+            margin-left: -80px;
+        }
+    }
+    
+    .segundo7 {
+        animation-name: segundo7;
+        animation-delay: 37s;
+        animation-duration:8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes segundo8 {
+        from {
+            opacity: 1;
+            transform: translateX(0px);
+            color: white;
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+            color: white;
+        }
+    }
+    
+    .segundo8 {
+        animation-name: segundo8;
+        animation-delay: 42s;
+        animation-duration:8s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -163,7 +262,14 @@
     }
     /*.dropdown:hover .dropbtn {
     background-color: #b38741;
-}*/
+    }*/
+    .menu-servicios {
+        position: absolute !important;
+        transform: translate3d(-20px, 36px, 0px) !important;
+        top: 0px !important;
+        left: 0px !important;
+        will-change: transform !important;
+    }
     /*FIN DROPDOWN*/
     /*COMIENZO HAMBURGUESA*/
     
@@ -204,7 +310,6 @@
     
     footer {
         position: relative;
-        padding-top: 10%;
         z-index: 1;
     }
     .footer-logo {
@@ -285,17 +390,7 @@
             top: 0;
         }
         .animacion {
-            
-            font-size: 1rem;
-        }
-        .animacion2 {
-            font-size: 1rem;
-            margin-top: 15vh;
-        }
-        .animacion3 {
-            margin-top: 30vh;
-            font-size: 1rem;
-            
+            font-size: 150%;
         }
         .logo{
             top: 0;
