@@ -311,6 +311,7 @@
     footer {
         position: relative;
         z-index: 1;
+        font-size: x-small;
     }
     .footer-logo {
         width: 25%;
@@ -401,7 +402,14 @@
             width: 25%;
         }
         .footer-logo {
-            width: 125px;
+            width: 75px;
+            margin-left: 10px;
+        }
+        .titol-footer{
+            font-size: small;
+        }
+        .info{
+            font-size: small;
         }
         .vacio {
             display: none;
@@ -416,6 +424,7 @@
         }
         .socials {
             display: flex;
+            margin-left: 12px;
         }
     }
     /*RESPONSIVE*/
