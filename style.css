@@ -353,6 +353,9 @@
         .vacio {
             display: none;
         }
+        .lastfooter {
+            display: flex;
+        }
     }
     /*RESPONSIVE*/
     /*Filas y columnas */
