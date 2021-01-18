@@ -341,7 +341,18 @@
     }
 
     /*FIN VIDEO*/
+    /*ONLY MOBIE */
+    @media only screen and (min-width: 768px) {
+        .onlymobile{
+            display: none;
+            
+        }
+    }
+    .onlymobile{
+        color: white;
+    }
 
+    /*ONLY MOBILE END*/
     /*COMIENZO FOOTER*/
     
     footer {
@@ -375,7 +386,10 @@
             margin: 0;
             letter-spacing: normal;
         }
-        
+        .bar{
+            width: 20px;
+            height: 2px;
+        }
         .main{
             margin-top: 7vh;
             height: 100vh;
@@ -402,7 +416,7 @@
             text-align: start;
             margin: 0;
             padding: 0;
-            width: 25%;
+            width: 30%;
         }
         .footer-logo {
             width: 12vw;
