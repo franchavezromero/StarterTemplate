@@ -45,6 +45,7 @@
         position: absolute;
         top: 1%;
         left: 1%;
+        font-weight: bold;
     }
     
     @keyframes primer {
@@ -346,9 +347,11 @@
 
     /*FIN VIDEO*/
     /*ONLY MOBIE */
-    @media only screen and (min-width: 768px) {
+    @media only screen and (max-width: 768px) {
         .onlymobile{
             /*display: none;*/
+            padding-top: 34% !important;
+            animation-duration:3s ;
             
         }
     }
@@ -397,11 +400,17 @@
         *{
             max-width: 100vw !important ;
         }
+        h3 {
+            font-size: 18px;
+        }
+        section{
+            display: inline-flex !important;
+        }
         body{
             width: 100vw ;
         }
         .topbar{
-            width: 49vw;
+            width: 39%;
             padding: 0;
             margin: 0;
             letter-spacing: normal;
@@ -426,7 +435,7 @@
             top: 0;
         }
         .animacion {
-            font-size: calc(1em + 1vw);
+            font-size: calc(2em + 2vw);
             line-height: 1em;
             
         }
@@ -437,6 +446,15 @@
             margin: 0;
             padding: 0;
             width: 30%;
+        }
+        footer{
+            margin-top: -47%;
+            color: transparent;
+            animation-name: onlymobile;
+            animation-delay: 8s;
+            animation-duration: 8s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
         }
         .footer-logo {
             width: 12vw;
@@ -455,8 +473,8 @@
             display: flex;
         }
         .info{
-            width: fit-content !important;
-            margin-left: 7vw;
+            display: contents;
+            width: -webkit-fill-available !important;
         }
         .info section{
             display: grid;
